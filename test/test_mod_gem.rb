@@ -1,7 +1,13 @@
 require 'helper'
 
-class TestModGem < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+class TestFibonacci < Test::Unit::TestCase
+  should "accept user input" do
+  end
+  
+  should "produce a number in the fibonacci sequence" do
+  end
+  
+  should "produce a number in the fibonacci sequence up to the user input" do
+
   end
 end
