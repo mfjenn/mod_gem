@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "mod_gem"
   gem.homepage = "http://github.com/mfjenn/mod_gem"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{a fibonacci gem}
+  gem.description = %Q{this is a gem that accepts user input, then iterates through the fibonacci sequence until it arrives at the nearest fibonacci number.}
   gem.email = "mary@maryfjenn.com"
   gem.authors = ["Mary Jenn"]
   # dependencies defined in Gemfile

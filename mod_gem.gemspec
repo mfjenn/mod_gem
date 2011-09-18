@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Mary Jenn}]
   s.date = %q{2011-09-18}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{this is a gem that accepts user input, then iterates through the fibonacci sequence until it arrives at the nearest fibonacci number.}
   s.email = %q{mary@maryfjenn.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/mod_gem.rb",
+    "mod_gem.gemspec",
     "test/helper.rb",
     "test/test_mod_gem.rb"
   ]
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.5}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{a fibonacci gem}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
